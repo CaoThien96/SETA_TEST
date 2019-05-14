@@ -1,0 +1,16 @@
+{
+  "name": "javascripttest",
+  "version": "1.0.0",
+  "description": "javascript algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "CaoThien",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0",
+    "lodash": "^4.17.11"
+  }
+}
