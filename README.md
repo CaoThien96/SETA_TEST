@@ -16,7 +16,7 @@ Run command:
 React-redux app:
 - Get post by api then display posts
 - Create form component for create post
-    Run command:
-    cd TestReactjs
-    npm i
-    npm start 
+Run command:
+    - cd TestReactjs
+    - npm i
+    - npm start 

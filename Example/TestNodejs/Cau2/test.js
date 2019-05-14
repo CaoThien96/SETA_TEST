@@ -1,5 +1,6 @@
 const sumTopK = require('./index').sumTopK
 test('test top k funtion',()=>{
+    expect(sumTopK(3,[1,2])).toBe(0)
     expect(sumTopK(2,[ 22,
         11,
         35,

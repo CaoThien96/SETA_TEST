@@ -8,7 +8,7 @@ import Modal from "antd/es/modal/Modal";
 
 import WrappedHorizontalLoginForm from "./components/FormNew";
 import {fetchSuccess} from './actions'
-import {findLengthAppearMost} from '../NodejsTest/common/getHashMap'
+
 const columns = [
     {
         title: 'User Id',
@@ -43,7 +43,6 @@ class Index extends Component {
         axios.get('https://jsonplaceholder.typicode.com/posts').then(res=>res.data).then(data=>{
             this.props.fetchSuccess(data)
         })
-        console.log({max:findLengthAppearMost(['a', 'ab', 'abc', 'cd'])})
     }
     showModal = () => {
         this.setState({
@@ -78,7 +77,7 @@ class Index extends Component {
         return (
             <div>
                 <Row>
-                    <Button onClick={this.showModal}>New</Button>
+                    <Button type={"primary"} onClick={this.showModal}>New</Button>
                     <Modal
                         title="New Post"
                         visible={visible}

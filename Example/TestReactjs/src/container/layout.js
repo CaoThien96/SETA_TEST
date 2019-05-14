@@ -5,7 +5,7 @@ import ReactTest from './ReactTest'
 const Layout = ()=>{
     return (
         <Row>
-            <Col span={10} offset={7}>
+            <Col span={14} offset={5}>
                 <ReactTest/>
             </Col>
 
