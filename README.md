@@ -2,7 +2,7 @@
 ##### Solution question 1: Write a function to find the strings’ length that appear most in this array
 - Step1: Find array frequency of string
 - Step2: Sort array by increment
-- Step3: Return array length of string appear most
+- Step3: Return array length of strings appear most
     
 ##### Solution question 2: Write a function to find sum of integers on top 2
 - step1: Sort array by increment
